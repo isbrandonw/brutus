@@ -14,7 +14,9 @@
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
     "dev:registry": "REGISTRY_URL=http://localhost:5173/r tsx ./scripts/build-registry.mts",
-    "build:registry": "tsx ./scripts/build-registry.mts"
+    "build:registry": "tsx ./scripts/build-registry.mts",
+    "clean": "rm -rf .nuxt node_modules",
+    "clean:deep": "rm -rf .nuxt node_modules dist .output pnpm-lock.yaml package-lock.json && pnpm install"
   },
   "dependencies": {
     "@number-flow/vue": "^0.4.8",

@@ -1,33 +1,33 @@
-<p align="center">
-  <a href="https://github.com/unovue/inspira-ui">
-    <img src="./logo.png" alt="Logo" width="150" />
-  </a>
-</p>
-<h1 align="center">
-  Inspira UI
-</h1>
-<p align="center">
-  <b>Build beautiful websites using Vue & Nuxt.</b><br>
-  A curated collection of beautifully designed, reusable components for Vue & Nuxt.
-</p>
-
-<p align="center">
-  <a href="https://github.com/unovue/inspira-ui/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/unovue/inspira-ui?style=social">
-  </a>
-  <a href="https://github.com/unovue/inspira-ui/blob/main/LICENSE.md">
-    <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
-  </a>  
-</p>
-
-<p align="center">🌐 Available Languages</h2>
-
-<p align="center">
-  <a href="README.md">🇺🇸 English</a> |
-  <a href="README_CN.md">🇨🇳 Chinese</a> |
-  <a href="README_IT.md">🇮🇹 Italian</a>
-</p>
-
+---
+project:
+  name: Inspira UI
+  description: >
+    Build beautiful websites using Vue & Nuxt.
+    A curated collection of beautifully designed, reusable components for Vue & Nuxt.
+  logo: ./logo.png
+  repository: https://github.com/unovue/inspira-ui
+  license: MIT
+  badges:
+    - name: GitHub stars
+      image: https://img.shields.io/github/stars/unovue/inspira-ui?style=social
+      link: https://github.com/unovue/inspira-ui/stargazers
+    - name: License
+      image: https://img.shields.io/badge/License-MIT-yellow.svg
+      link: https://github.com/unovue/inspira-ui/blob/main/LICENSE.md
+  languages:
+    - name: English
+      code: en
+      file: README.md
+      flag: 🇺🇸
+    - name: Chinese
+      code: zh
+      file: README_CN.md
+      flag: 🇨🇳
+    - name: Italian
+      code: it
+      file: README_IT.md
+      flag: 🇮🇹
+# End of Selection
 ---
 
 Welcome to [**Inspira UI**](https://inspira-ui.com), a community-driven project that brings the beauty and functionality of both [Aceternity UI](https://ui.aceternity.com) and [Magic UI](https://magicui.design) to the [Vue](https://vuejs.org) & [Nuxt](https://nuxt.com) ecosystem! While this project draws inspiration from these sources, it also includes unique custom components contributed by the community and created by us.

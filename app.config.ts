@@ -1,8 +1,9 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: "Inspira UI",
-      description: "Build beautiful websites using Vue & Nuxt.",
+      name: "Logical Oracle",
+      description:
+        "Welcome to the Logical Oracle: A collection of idea research related to software development",
       ogImage: "https://inspira-ui.com/og-image.png",
     },
     theme: {
@@ -19,7 +20,7 @@ export default defineAppConfig({
       border: true,
     },
     header: {
-      title: "Inspira UI",
+      title: "Oracle",
       showTitle: true,
       darkModeToggle: true,
       logo: {

@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-shadcn-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal Nuxt 3 template with shadcn-style components",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.3.0",
+    "class-variance-authority": "^0.7.1",
+    "motion-v": "1.2.1",
+    "nuxt": "3.17.5",
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@inspira-ui/plugins": "0.0.1",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.8.3"
+  }
+}

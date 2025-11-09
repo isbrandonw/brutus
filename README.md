@@ -53,6 +53,18 @@ Inspira UI was created to fill a gap in the Vue community by providing a set of 
 
 For full documentation and usage examples, visit [**Inspira UI Documentation**](https://inspira-ui.com).
 
+## 🚀 Quick Start Template
+
+Looking to start a new project with shadcn-style components? Check out our **[Nuxt + Shadcn Template](/template)** - a minimal starter template that includes:
+
+- ✅ Pre-configured Tailwind CSS with shadcn color system
+- ✅ Dark mode support with CSS variables
+- ✅ TypeScript setup
+- ✅ Utility functions and example components
+- ✅ Ready to add Inspira UI components
+
+[**Get Started with the Template →**](/template/README.md)
+
 ## 🙏 Acknowledgments
 
 A special thanks to:

@@ -26,7 +26,7 @@ This template includes the essential setup for building applications with shadcn
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm, pnpm, or yarn
 
 ### Installation
@@ -120,7 +120,7 @@ pnpm inspira-ui add button
 </template>
 
 <script setup lang="ts">
-import Button from '~/components/ui/Button.vue'
+import Button from "~/components/ui/Button.vue";
 </script>
 ```
 
@@ -158,7 +158,7 @@ Dark mode is built-in using CSS variables. Toggle it by adding/removing the `dar
 
 ```javascript
 // Toggle dark mode
-document.documentElement.classList.toggle('dark')
+document.documentElement.classList.toggle("dark");
 ```
 
 The example page includes a working theme toggle implementation.

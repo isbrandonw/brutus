@@ -1,0 +1,54 @@
+{
+  "name": "Node.js & TypeScript",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  // TODO: Add more detailed file structures and define clear processes for tasks.
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  "features": {},
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": ["3000"],
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "pnpm install && pnpm dev",
+  // Configure tool-specific properties.
+  "customizations": {
+    "jetbrains": {
+      "backend": "WebStorm"
+    },
+    "vscode": {
+      "extensions": [
+        "Vue.volar",
+        "Vue.vscode-typescript-vue-plugin",
+        "Nuxt.mdc",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "antfu.iconify",
+        "codezombiech.gitignore",
+        "bierner.markdown-preview-github-styles",
+        "ms-azuretools.vscode-docker",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-containers",
+        "eamodio.gitlens",
+        "dbaeumer.vscode-eslint",
+        "mechatroner.rainbow-csv"
+      ],
+      "settings": {
+        "volar.takeOverMode.enabled": true,
+        "typescript.tsdk": "node_modules/typescript/lib",
+        "typescript.enablePromptUseWorkspaceTsdk": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[vue]": {
+          "editor.defaultFormatter": "Vue.volar"
+        },
+        "files.associations": {
+          "*.vue": "vue"
+        }
+      }
+    }
+  },
+  "runArgs": ["--network=host"]
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
